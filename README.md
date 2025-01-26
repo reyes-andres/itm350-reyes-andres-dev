@@ -1,9 +1,9 @@
-## Vue Events Bulletin Board
+## What is Git
 
-This is the code for the Vue.js [tutorial on Scotch.io](https://scotch.io/tutorials/build-a-single-page-time-tracking-app-with-vue-js-introduction). In the tutorial we build a events bulletin board application and cover the basics of [Vue](http://vuejs.org/).
+Git is a distributed version control system. Git allow teams to work on project from different locations and track changes in the project files they work on. 
 
-
-## Installation
+## How to use Git
+Here is a Basic guide showing how to get started:
 
 Change the directory to `node-bulletin-board` and follow the commands:
 

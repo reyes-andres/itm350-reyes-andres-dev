@@ -36,7 +36,10 @@ We need to tell Git which remote branch should be the default target for pushes 
 
 ## Pulling changes
 To update our local repository with the latest changes from out remote repository, we can use `git pull`
+To pull from a specific branch you can use: `git pull origin <branch-name>`
 
+## Changing the remote origin URL
+When changing the URL is needed use the `git remote set-url` command. And for changin the url for the origin remote use the command: `git remote set-url origin <new-url>`
 
 1. Run `npm install`.
 2. Run `node server.js`.

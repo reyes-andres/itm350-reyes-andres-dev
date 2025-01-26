@@ -5,7 +5,21 @@ Git is a distributed version control system. Git allow teams to work on project 
 ## How to use Git
 Here is a Basic guide showing how to get started:
 
-Change the directory to `node-bulletin-board` and follow the commands:
+### 1. Install Git
+Firt, we need to install Git on your PC. You can download it from: https://git-scm.com/downloads
+
+### 2. Configure Git
+After installing the program, configure it with your information: 
+
+`git config --global user.name "Your Name"`
+
+`git config --global user.email "your.email@example.com"`
+
+### 2. Initialize your Repository
+Now you can vavigate to your project's directory and initialize a Git repository:
+You can move to directories by using this command:`cd your-project-directory`. Then you can initialize your repo by typing:
+`git init`
+
 
 1. Run `npm install`.
 2. Run `node server.js`.

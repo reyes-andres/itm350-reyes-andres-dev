@@ -41,6 +41,30 @@ To pull from a specific branch you can use: `git pull origin <branch-name>`
 ## Changing the remote origin URL
 When changing the URL is needed use the `git remote set-url` command. And for changin the url for the origin remote use the command: `git remote set-url origin <new-url>`
 
+## Stashing Changes
+To temporarily save changes that you aren't ready to commit, use `git stash`.
+
+You can also list all the stashes by using this commnad: `git stash list`
+
+## Reverting Changes
+If you need to revert a previous commit, you can use the following command: `git revert <commit>`
+
+## Resetting Changes
+If you need to undo commits and changes you may use git `reset <commit-hash>` 
+
+## Viewing the commit history
+
+
+
+
+
+
+
+
+
+
+
+
 1. Run `npm install`.
 2. Run `node server.js`.
 3. Visit [http://localhost:8080](http://localhost:8080).
